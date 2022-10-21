@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Padrão</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 194, 255);
+        }
+
+        header {
+            min-height: 80px;
+            background-color: rgb(255, 0, 119);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 1.2em;
+            color: white;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.2, 1.2);
+            color: rgb(255, 167, 255);
+            text-shadow: 0 0 6px rgba(255, 0, 255, 0.349);
+        }
+
+        .container {
+            margin: 5vw;
+        }
+
+        .mangas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .manga {
+            box-shadow: 0 0 10px rgba(121, 0, 115, 0.397);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            gap: 10px;
+        }
+
+        .manga img {
+            height: 260px;
+            width: 180px;
+            object-fit: cover;
+        }
+
+        .manga p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            sobre academia
+        </span>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Mangás</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="container">
+            <div class="mangas">
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt=" ">
+                    <div>
+                        <h2>benefícios da academia</h2>
+                        <p>durante a atividade fisica,o corpo naturalmente produz mais serotomia e endorfina,neurotransmissores
+                          relacionados a sensação de bem-estar e que ajudam a reduzir o estresse e a ansiedade. isso causa a chamada "estabilização afetiva",que ajuda a memoria e melhora a capacidade de raciocínio rápido. 
+                        </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>historia da academia </h2>
+                        <p>Distinguem-se, na história, a Antiga Academia, de Platão a Arcesilau, e a Nova, que se prolongou até depois do século V.
+
+                            Foi com a época renascentista e o surgir do humanismo que o princípio da Academia tomou novo fôlego, começando a difusão em Itália e propagando-se pelos demais centros europeus para que se pudesse levar, a cabo, o estudo de saberes relacionados com a filosofia, a arte, a música.
+                            </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="Preacher-curl-2-2.gif"
+                        alt="">
+                    <div>
+                        <h2>rosca scoot</h2>
+                        <p>O exercício foi inventado por Larry Scott, famoso fisiculturista americano na década de 1960, tendo o nome Rosca Scott em homenagem para seu criador.</p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>rosca alternada</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ut necessitatibus mollitia
+                            dolor.
+                            Laboriosam quod modi iusto qui facilis cum, animi soluta id molestias odit? Dolorum dicta
+                            explicabo nisi possimus!</p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-82gwrvQV6OBc.png"
+                        alt="">
+                    <div>
+                        <h2>Chainsaw Man</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ut necessitatibus mollitia
+                            dolor.
+                            Laboriosam quod modi iusto qui facilis cum, animi soluta id molestias odit? Dolorum dicta
+                            explicabo nisi possimus!</p>
+                    </div>
+                </div>
+            </div
+        </section>
+    </body>
+</body>
+
+</html>
